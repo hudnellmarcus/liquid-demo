@@ -1,30 +1,40 @@
 import React from 'react'
+import wtbGold from '../wtb-gold.jpg'; 
+import Header from '../Components/Header';
+import liquidLabel from '../Liquid-Label.png'
 //import Header from '../Components/Header'
 
-const SignIn = () => {
+const SignInPage = () => {
+
   return (
     <div className="flex h-screen flex-row" >
-        <div className="flex flex-1 items-center justify-center border-black border-2 p-3">
-            <div className='flex flex-1 flex-col h-80 -mt-10'>
+        <div className="flex flex-1 flex-col justify-center p-3 sm:p-6">
+            <div className="flex justify-start items-start mb-24">
+                <img src={liquidLabel} alt="logo"/>
+            </div>
+            <div className='flex flex-1 flex-col h-80 -mt-10 m-6' >
                 <div className="flex flex-col justify-start">
-                    <h2 className='text-2xl font-bold text-black'>Login or Sign Up</h2>
+                    <h2 className='text-2xl font-bold text-black'>Login or Sign Up
+                    </h2>
                 </div>              
                 <div className="flex flex-col justify-start py-5">
-                    <h4 className="text-l font-semibold text-black py-2">Phone Number, Email or Username</h4>
+                    <h4 className="text-sm sm:text-md font-semibold text-black py-2">Phone Number, Email or Username</h4>
                     <input
                         type="text"
-                        className="w-full p-2 border border-gray-400 rounded-md"
+                        className="w-full p-2 border border-gray-200 rounded-md"
                         placeholder="Enter your phone number, email or username"
                     />
-                    <h4 className="text-l font-semibold text-black py-2">Password</h4>
+                    <h4 className="text-sm sm:text-md font-semibold text-black py-2">Password</h4>
                     <input
                         type="text"
-                        className="w-full p-2 border border-gray-400 rounded-md"
+                        className="w-full p-2 border border-gray-200 rounded-md"
                         placeholder="Enter your password"
                     />
                 </div> 
                 <div className="flex justify-end">
-                    <p className="font-bold">Forgot Password?</p>
+                    <p className="font-bold">
+                        Forgot Password?
+                    </p>
                 </div>                            
                 <div className="flex justify-center py-4">
                     <button
@@ -47,9 +57,12 @@ const SignIn = () => {
             </div>
 
         </div>
-        <div className="flex-1 bg-black"></div>
+        <div className="flex flex-1">
+            <img src={wtbGold} alt="We the best" className="w-full h-full object-cover"/> 
+        </div>
     </div>
+
   )
 }
 
-export default SignIn
+export default SignInPage
