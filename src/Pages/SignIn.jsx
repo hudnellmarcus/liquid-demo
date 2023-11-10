@@ -1,6 +1,5 @@
 import React from 'react'
 import wtbGold from '../wtb-gold.jpg'; 
-import Header from '../Components/Header';
 import liquidLabel from '../Liquid-Label.png'
 //import Header from '../Components/Header'
 
