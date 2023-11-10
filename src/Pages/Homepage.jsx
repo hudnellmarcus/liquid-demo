@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../Components/NavBar';
 import social from '../Assets/Member DJ Khaled/Social Media.png';
 import khaled from '../Assets/Member DJ Khaled/djk 1.png';
+import PerkCarousel from '../Components/PerkCarousel';
 
 
 const Homepage = () => {
@@ -35,7 +36,9 @@ const Homepage = () => {
         <h1 className="text-4xl text-black font-bold justify-center p-2">Unlocking Creativity with DJ Khaled Perks!</h1>
         <p className="text-xl justify-center">Unlock a world of benefits specially crafted for creators, packed with exciting rewards in our dedicated creators' offers section</p>
       </div>
-
+    <div className="flex flex-col mt-10 w-1/2">
+    <PerkCarousel />
+    </div>
     </div>
   </div>
   )
