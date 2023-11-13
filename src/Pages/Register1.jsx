@@ -14,6 +14,9 @@ const Register1 = ()=> {
                 <p className="">Step 1</p> 
                 <p>Add your personal details</p>
             </div>
+            <div className="flex">
+            <ProgressBar progressPercentage={33} />
+            </div>
             <div>
                 <p className="mr-10">Step 1/3</p>
             </div>

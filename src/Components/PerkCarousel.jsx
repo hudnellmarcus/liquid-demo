@@ -50,7 +50,7 @@ const CarouselCard2 = () => {
                     <br />
                     you upon sign up!</p>
                     <div className="flex flex-row justify-between m-5">
-                        <button className="bg-amber-400 text-black font-semibold rounded-full px-6 py-3 w-32 h-12 mt-3">Next</button>
+                     <button className="bg-amber-400 text-black font-semibold rounded-full px-6 py-3 w-32 h-12 mt-3">Next</button>
                         <img src={box} alt="engagement" className="border-black border-2 rounded-full h-15" />
                     </div>
                 </div>

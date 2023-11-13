@@ -7,6 +7,7 @@ import SignInPage from './Pages/SignIn';
 import Register1 from './Pages/Register1';
 import Register2 from './Pages/Register2';
 import Homepage from './Pages/Homepage';
+import OfferGallery from './Pages/OfferGallery';
 import 'react-slick';
 import 'slick-carousel';
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path='/offers' element={<OfferGallery />} />
         <Route path='/homepage' element={<Homepage />} />
         <Route path="/register/1" element={<Register1 />} />
         <Route path="/register/2" element={<Register2 />} />

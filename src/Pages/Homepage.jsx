@@ -3,11 +3,13 @@ import NavBar from '../Components/NavBar';
 import social from '../Assets/Member DJ Khaled/Social Media.png';
 import khaled from '../Assets/Member DJ Khaled/djk 1.png';
 import PerkCarousel from '../Components/PerkCarousel';
+import rewards from '../Assets/Member DJ Khaled/Rewards_Placeholder.png';
+import Footer from '../Components/Footer';
 
 
 const Homepage = () => {
   return (
-  <div className="flex flex-col">
+  <div className="flex flex-col h-screen">
     <div className="flex flex-row justify-center p-1 h-15 bg-black">
       <p className="text-lg text-white mr-1">Free Membership. Click Here to</p> <span className="text-lg text-amber-400">Upgrade</span>
     </div>
@@ -36,10 +38,22 @@ const Homepage = () => {
         <h1 className="text-4xl text-black font-bold justify-center p-2">Unlocking Creativity with DJ Khaled Perks!</h1>
         <p className="text-xl justify-center">Unlock a world of benefits specially crafted for creators, packed with exciting rewards in our dedicated creators' offers section</p>
       </div>
-    <div className="flex flex-col mt-10 w-1/2">
-    <PerkCarousel />
+      <div className="flex flex-col mt-10 w-1/2">
+        <PerkCarousel />
+      </div>
     </div>
+    <div>
+      <div className="flex flex-col items-center">
+        <div className="flex flex-col p-2">
+          <h1 className="text-4xl font-bold justify-center p-2">Elevate Your Creative Journey with Exclusive Rewarded Offers!</h1>
+          <p className="text-xl p-1">Unlock a world of benefits specially crafted for creators, packed with exciting rewards in our dedicated creator's offers section!</p>
+        </div>
+        <div className="flex p-2">
+          <img src={rewards} alt="rewards" />
+        </div>
+      </div>
     </div>
+    <Footer />
   </div>
   )
 }
