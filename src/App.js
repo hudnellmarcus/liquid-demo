@@ -8,15 +8,21 @@ import Register1 from './Pages/Register1';
 import Register2 from './Pages/Register2';
 import Homepage from './Pages/Homepage';
 import OfferGallery from './Pages/OfferGallery';
+import RedeemedRewards from './Pages/RedeemedRewards';
 import 'react-slick';
 import 'slick-carousel';
+import Perks from './Pages/Perks';
+import AccountSettings from './Pages/AccountSettings';
 
 
 function App() {
   return (
     <Router>
       <Routes>
+        <Route path='/settings' element={<AccountSettings />} />
+        <Route path='/perks' element={<Perks />} />
         <Route path='/offers' element={<OfferGallery />} />
+        <Route path='/rewards' element={<RedeemedRewards />} />
         <Route path='/homepage' element={<Homepage />} />
         <Route path="/register/1" element={<Register1 />} />
         <Route path="/register/2" element={<Register2 />} />

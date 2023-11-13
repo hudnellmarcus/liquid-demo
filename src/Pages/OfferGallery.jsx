@@ -34,15 +34,20 @@ const OfferGallery = () => {
             </div>
         </div>
         <div className="flex flex-row p-4 mx-12 my-12 space-x-8">
+            
             <button 
-            className={`px-6 py-2 font-semibold text-lg border-black border-2 rounded-full ${activeButton === 'all' ? 'text-white bg-black' : 'text-black bg-white'}`}
-            onClick={() => handleButtonClick('all')}>All</button>
+                className={`px-6 py-2 font-semibold text-lg border-black border-2 rounded-full ${activeButton === 'all' ? 'text-white bg-black' : 'text-black bg-white'}`}
+                onClick={() => handleButtonClick('all')}>All</button>
+            
             <button 
-             className={`px-6 py-2 font-semibold text-lg border-black border-2 rounded-full ${activeButton === 'activated' ? 'text-white bg-amber-400' : 'text-black bg-white'}`}
-            onClick={() => handleButtonClick('activated')}>Activated</button>
+                className={`px-6 py-2 font-semibold text-lg border-black border-2 rounded-full ${activeButton === 'activated' ? 'text-white bg-amber-400' : 'text-black bg-white'}`}
+                onClick={() => handleButtonClick('activated')}>Activated</button>
+            
             <button 
-           className={`px-6 py-2 font-semibold text-lg border-black border-2 rounded-full ${activeButton === 'expired' ? 'text-white bg-amber-400' : 'text-black bg-white'}`}
-            onClick={() => handleButtonClick('expired')}>Expired</button>
+                className={`px-6 py-2 font-semibold text-lg border-black border-2 rounded-full ${activeButton === 'expired' ? 'text-white bg-amber-400' : 'text-black bg-white'}`}
+                onClick={() => handleButtonClick('expired')}>Expired
+            </button>
+        
         </div>
             {   activeButton === 'all' &&
         <div className="flex flex-col items-start p-4">
