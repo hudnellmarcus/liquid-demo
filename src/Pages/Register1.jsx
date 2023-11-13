@@ -1,6 +1,7 @@
 import React from 'react';
 import liquidLogo from '../Liquid-Label.png';
 import ProgressBar from '../Components/ProgressBar';
+import { Link } from 'react-router-dom';
 
 const Register1 = ()=> {
 
@@ -67,7 +68,9 @@ const Register1 = ()=> {
             </div>
             <div className="flex -mt-5 w-full justify-between">
                 <button className="bg-white text-black font-bold border-slate-300 border-2 w-48 h-12 py-2 px-4 rounded-full">Previous</button>
-                <button className="bg-amber-400 text-black font-bold py-2 px-4 w-48 rounded-full justify-end">Continue</button>
+                <Link to="/register/2">
+                    <button className="bg-amber-400 text-black font-bold py-2 px-4 w-48 rounded-full justify-end">Continue</button>
+                </Link>
             </div>
         </div>
     </div>

@@ -5,6 +5,7 @@ import free from '../Assets/Member DJ Khaled/Pricing Card_free.png';
 import premium from '../Assets/Member DJ Khaled/Pricing Card_premium.png';
 import vip from '../Assets/Member DJ Khaled/Pricing Card_vip.png';
 import platinum from '../Assets/Member DJ Khaled/Pricing Card_platinum.png';
+import { Link } from 'react-router-dom';
 
 const  Register2 = () => {
   return (
@@ -44,7 +45,9 @@ const  Register2 = () => {
         </div>
         <div className="flex w-full justify-between">
                 <button className="bg-white text-black font-bold border-slate-300 border-2 w-48 h-16 py-2 px-4 ml-20 rounded-full">Previous</button>
-                <button className="bg-amber-400 text-black font-bold py-2 px-4 w-48 rounded-full justify-end mr-20">Continue</button>
+                <Link to="/homepage">
+                    <button className="bg-amber-400 text-black font-bold py-2 px-4 w-48 rounded-full justify-end mr-20">Continue</button>
+                </Link>
         </div>
     </div>
   )

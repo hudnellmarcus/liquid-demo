@@ -121,10 +121,24 @@ const AccountSettings = () => {
                         </div>
                     }
         </div>
+        { activatedTab === 'settings' &&
             <div className="flex space-x-8 justify-end mr-10 mt-16">
                 <button className="border-gray-300 font-bold border-2 py-4 px-12 rounded-full">Cancel</button>
                 <button className="border-gray-300 bg-amber-400 font-bold border-2 py-3 px-12 rounded-full">Save</button>
             </div>
+        }
+        { activatedTab === 'preferences' &&
+            <div className="flex space-x-8 justify-end mr-10 mt-16">
+                <button className="border-gray-300 font-bold border-2 py-4 px-12 rounded-full">Cancel</button>
+                <button className="border-gray-300 bg-amber-400 font-bold border-2 py-3 px-12 rounded-full">Save</button>
+            </div>
+        }
+        {
+            activatedTab === 'upgrade' &&
+                <div className="flex justify-end m-12 p-2">
+                    <button className="border-gray-300 bg-amber-400 font-bold border-2 py-3 px-12 rounded-full">Upgrade to Premium</button>
+                </div>
+        }
     </div>
   )
 }

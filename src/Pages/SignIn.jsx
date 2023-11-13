@@ -1,6 +1,7 @@
 import React from 'react'
 import wtbGold from '../wtb-gold.jpg'; 
 import liquidLabel from '../Liquid-Label.png'
+import { Link } from 'react-router-dom';
 //import Header from '../Components/Header'
 
 const SignInPage = () => {
@@ -36,12 +37,14 @@ const SignInPage = () => {
                     </p>
                 </div>                            
                 <div className="flex justify-center py-4">
-                    <button
-                        className="w-full h-14 m-4 py-2 px-4 bg-amber-400 text-black font-bold rounded-full"
-                        type="submit"
+                    <Link to="/homepage">
+                        <button
+                            className="w-full h-14 m-4 py-2 px-4 bg-amber-400 text-black font-bold rounded-full"
+                            type="submit"
                     >   
-                        Login 
-                    </button>
+                                Login 
+                        </button>
+                    </Link>
                 </div>
                 <div className="flex flex-row justify-center -mt-3">
                     <p className="p-1">Major Moves Only!</p> 
