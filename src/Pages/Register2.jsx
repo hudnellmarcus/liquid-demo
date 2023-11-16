@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import liquidLogo from '../Liquid-Label.png';
 import pricingCard from '../Assets/Member DJ Khaled/Pricing Card.png';
 import free from '../Assets/Member DJ Khaled/Pricing Card_free.png';
@@ -7,7 +7,15 @@ import vip from '../Assets/Member DJ Khaled/Pricing Card_vip.png';
 import platinum from '../Assets/Member DJ Khaled/Pricing Card_platinum.png';
 import { Link } from 'react-router-dom';
 
+import Modals from '../Components/Modals/Modals';
+
+
 const  Register2 = () => {
+    const [open, setOpen ] = useState(false);
+
+    const handleOpen = () => setOpen(true); 
+
+
   return (
     <div className="flex h-screen flex-col items-center">
           <div className="mr-auto px-4">
@@ -45,10 +53,19 @@ const  Register2 = () => {
         </div>
         <div className="flex w-full justify-between">
                 <button className="bg-white text-black font-bold border-slate-300 border-2 w-48 h-16 py-2 px-4 ml-20 rounded-full">Previous</button>
-                <Link to="/homepage">
-                    <button className="bg-amber-400 text-black font-bold py-2 px-4 w-48 rounded-full justify-end mr-20">Continue</button>
-                </Link>
+              
+                    <button 
+                    onClick={handleOpen}
+                    className="bg-amber-400 text-black font-bold py-2 px-4 w-48 rounded-full justify-end mr-20">Continue</button>
+            
         </div>
+      {/*}  <Modals 
+           open={open}
+           handler={handleOpen}
+           size="sm"
+           dismiss="Escape"
+             
+  /> */}
     </div>
   )
 }

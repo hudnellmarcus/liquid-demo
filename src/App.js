@@ -13,12 +13,15 @@ import 'react-slick';
 import 'slick-carousel';
 import Perks from './Pages/Perks';
 import AccountSettings from './Pages/AccountSettings';
+import Modal1 from './Components/Modals/Modal1';
+import Modals from './Components/Modals/Modals';
 
 
 function App() {
   return (
     <Router>
       <Routes>
+        <Route path='/modal' element={<Modals />} />
         <Route path='/settings' element={<AccountSettings />} />
         <Route path='/perks' element={<Perks />} />
         <Route path='/offers' element={<OfferGallery />} />

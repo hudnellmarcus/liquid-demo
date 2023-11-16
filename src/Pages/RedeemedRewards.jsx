@@ -1,9 +1,11 @@
 import React from 'react'
+import rewardsData from '../RewardData';
 
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
 
 import khaled from '../Assets/Member DJ Khaled/djk 1.png';
+import RewardTable from '../Components/RewardTable';
 
 const RedeemedRewards = () => {
   return (
@@ -23,7 +25,7 @@ const RedeemedRewards = () => {
         <div className="flex flex-col items-start border-red-500 border-4">
             <div className="flex flex-col border-green-500 border-4">
                 <h1 className="text-5xl text-black font-bold">Redeemed Rewards</h1>
-
+               <RewardTable data={rewardsData}/>
             </div>
         </div>
             <Footer />
