@@ -31,7 +31,7 @@ const RewardTable = ({ data }) => {
                         <td className="py-4 px-6">${reward.amountSpent.toFixed(2)}</td>
                         <td className="py-4 px-6 text-green-600 font-semibold">${(reward.amountSpent * reward.cashbackPercent).toFixed(2)}</td>
                     </tr>
-                ))};
+                ))}
             </tbody>
         </table>
     )
