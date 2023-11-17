@@ -14,6 +14,7 @@ const  Register2 = () => {
     const [open, setOpen ] = useState(false);
 
     const handleOpen = () => setOpen(true); 
+    const handleClose = () => setOpen(false);
 
 
   return (
@@ -57,15 +58,12 @@ const  Register2 = () => {
                     <button 
                     onClick={handleOpen}
                     className="bg-amber-400 text-black font-bold py-2 px-4 w-48 rounded-full justify-end mr-20">Continue</button>
+
+                    {
+                        open && <Modals open={open} close={handleClose}/> 
+                    }
             
         </div>
-      {/*}  <Modals 
-           open={open}
-           handler={handleOpen}
-           size="sm"
-           dismiss="Escape"
-             
-  /> */}
     </div>
   )
 }
