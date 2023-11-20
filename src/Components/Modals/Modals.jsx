@@ -11,13 +11,14 @@ import Modal7 from './Modal7';
 import Modal8 from './Modal8';
 import Modal9 from './Modal9';
 import Modal10 from './Modal10';
+import Modal11 from './Modal11';
 
 
 const Modals = ({ close }) => {
     const [currentModal, setCurrentModal] = useState(1);
 
     const nextModal = () => {
-      if(currentModal < 10) {
+      if(currentModal < 11) {
         setCurrentModal(currentModal + 1);
       }
     };
@@ -51,6 +52,7 @@ const Modals = ({ close }) => {
           {currentModal === 8 && <Modal8 onContinue= {handleContinue} onReturn={handleReturn} /> }
           {currentModal === 9 && <Modal9 onContinue= {handleContinue} onReturn={handleReturn} /> }
           {currentModal === 10 && <Modal10 onContinue= {handleContinue} onReturn={handleReturn} /> }
+          {currentModal === 11 && <Modal11 onContinue= {handleContinue} onReturn={handleReturn} /> }
         </div>
     </div>
   

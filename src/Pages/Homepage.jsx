@@ -7,6 +7,7 @@ import rewards from '../Assets/Member DJ Khaled/Rewards_Placeholder.png';
 import Footer from '../Components/Footer';
 
 
+
 const Homepage = () => {
   return (
   <div className="flex flex-col h-screen">
@@ -26,11 +27,11 @@ const Homepage = () => {
             love. It's all about the journey, it's all about YOU! #WeTheBest 🚀🔑</p>
           </div>
         </div>
-        <div className="flex flex-row p-3 ml-20">
+        <div className="flex flex-row p-2 ml-20">
           <img src={social} alt="socials" />
         </div>
         <div className="flex items-end justify-end object-contain">
-            <img src={khaled} alt="khaled" className="object-contain absolute h-2/4 w-auto mr-20"/>
+            <img src={khaled} alt="khaled" className="object-contain absolute h-2/4 w-auto mr-20 sm:h-1/4 sm:w-auto"/>
         </div>
     </div>
     <div className="flex flex-col items-center mt-20">

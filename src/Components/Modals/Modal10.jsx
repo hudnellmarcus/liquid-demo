@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import main from '../../Assets/Member DJ Khaled/Modals/modal_10.png';
 import info from '../../Assets/Member DJ Khaled/Modals/bank_info.png';
@@ -21,11 +20,9 @@ const Modal10 = ({ onContinue, onReturn}) => {
             <img src={main} alt="" className="h-1/2"/>
             <img src={info} alt="" className="-mt-36"/>
         </div>
-        <div className="flex flex-col items-center">
-            <Link to="/homepage">
-                <button className="bg-amber-400 rounded-full px-6 py-3 mt-24 text-xl font-bold">Continue</button>
-            </Link>
-        </div>
+        <button 
+            onClick={onContinue}
+            className="bg-amber-400 rounded-full px-6 py-3 mt-24 text-xl font-bold">Continue</button>
         <p className="place-self-center mt-8 text-xl text-amber-400 font-bold">Learn More</p>
     </div>
   )

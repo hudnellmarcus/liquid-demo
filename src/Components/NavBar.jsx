@@ -1,6 +1,7 @@
 import React from 'react'
 import liquidLogo from '../Liquid-Label.png';
 import { Link } from 'react-router-dom';
+import settings from '../Assets/Member DJ Khaled/Settings_Button.png';
 
 const NavBar = () => {
   return (
@@ -15,6 +16,11 @@ const NavBar = () => {
             </Link>
             <Link to="/perks">
               <p>DJ Khaled Perks</p>
+            </Link>
+          </div>
+          <div className="flex m">
+            <Link to="/settings">
+              <img src={settings} alt=""/>
             </Link>
           </div>
     </div>
