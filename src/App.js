@@ -19,7 +19,7 @@ import Modals from './Components/Modals/Modals';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/liquid-demo">
       <Routes>
         <Route path='/modal' element={<Modals />} />
         <Route path='/settings' element={<AccountSettings />} />

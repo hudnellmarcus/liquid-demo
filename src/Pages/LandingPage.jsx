@@ -48,6 +48,8 @@ const LandingPage = () => {
         <div className="flex space-x-2 pt-3 justify-center">
           <Link to="/">
             <button className="bg-white text-black font-bold w-24 h-12 py-2 px-4 rounded-full">Log In</button>
+          </Link>
+          <Link to="/register/1">
             <button className="bg-black text-white font-bold py-2 px-4 rounded-full">Sign Up</button>
           </Link>
         </div>
