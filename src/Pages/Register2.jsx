@@ -5,6 +5,7 @@ import free from '../Assets/Member DJ Khaled/Pricing Card_free.png';
 import premium from '../Assets/Member DJ Khaled/Pricing Card_premium.png';
 import vip from '../Assets/Member DJ Khaled/Pricing Card_vip.png';
 import platinum from '../Assets/Member DJ Khaled/Pricing Card_platinum.png';
+import progressBar from '../Assets/Member DJ Khaled/progress-bar_2.png'; 
 import { Link } from 'react-router-dom';
 
 import Modals from '../Components/Modals/Modals';
@@ -31,6 +32,9 @@ const  Register2 = () => {
                 <p className="mr-10">Step 2/3</p>
             </div>
         </div>
+            <div className="flex p-4">
+                <img src={progressBar} alt=""/>
+            </div>
         <div className="flex flex-col mt-10 items-center p-5">
             <h1 className="text-3xl font-bold p-2">Choose Your Membership Type</h1>
             <p>Select membership type you prefer</p>

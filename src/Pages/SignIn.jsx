@@ -48,7 +48,9 @@ const SignInPage = () => {
                 </div>
                 <div className="flex flex-row justify-center -mt-3">
                     <p className="p-1">Major Moves Only!</p> 
+                    <Link to="/register/1">
                     <p className="p-1 text-yellow-400 font-semibold">Sign Up</p>
+                    </Link>
                 </div>
                 <div className="flex flex-col justify-center mt-4 text-center">
                     <p>By signing up for a LIQUID account, this means you agree to LIQUID's{' '}

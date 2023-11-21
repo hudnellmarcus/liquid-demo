@@ -1,6 +1,6 @@
 import React from 'react';
 import liquidLogo from '../Liquid-Label.png';
-import ProgressBar from '../Components/ProgressBar';
+import progressBar from '../Assets/Member DJ Khaled/Progress_bar_1.png';
 import { Link } from 'react-router-dom';
 
 const Register1 = ()=> {
@@ -15,13 +15,13 @@ const Register1 = ()=> {
                 <p className="">Step 1</p> 
                 <p>Add your personal details</p>
             </div>
-            <div className="flex">
-            <ProgressBar progressPercentage={33} />
-            </div>
             <div>
                 <p className="mr-10">Step 1/3</p>
             </div>
         </div>
+            <div className="flex p-4">
+                <img src={progressBar} alt=""/>
+            </div>
         <div className="flex flex-col items-center mt-10">
             <div>
                 <h1 className="text-3xl font-semibold p-2">Add your personal information</h1>
