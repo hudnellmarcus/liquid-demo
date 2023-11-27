@@ -10,28 +10,27 @@ import Footer from '../Components/Footer';
 
 const Homepage = () => {
   return (
-  <div className="flex flex-col h-screen">
-    <div className="flex flex-row justify-center p-1 h-15 bg-black">
-      <p className="text-lg text-white mr-1">Free Membership. Click Here to</p> <span className="text-lg text-amber-400">Upgrade</span>
+  <div className="flex flex-col h-screen overflow-auto">
+    <div className="flex flex-row justify-center p-1 h-12 bg-black">
+      <p className="text-sm text-white mr-1">Free Membership. Click Here to</p> <span className="text-sm text-amber-400">Upgrade</span>
     </div>
-    <div className="flex flex-col bg-amber-400 w-full h-2/3">
       <NavBar />
-        <div className="flex flex-col items-start ml-20 mt-20 py-5 w-full">
-          <h1 className="text-7xl font-bold text-white">We The Best!</h1>
-          <h1 className="text-7xl font-bold text-black">Let's golf!</h1>
-          <div className="flex flex-col w-50">
-            <p className="text-2xl p-2 mt-8 items-start">"Major 🔑 Alert! Your passion is the 🔑 to success, and now it's paying you 
-              <br />
-            back! Dive into the vibes and enjoy major rewards while doing what you 
-              <br />
+    <div className="flex flex-row bg-amber-400 w-auto h-auto">
+      <div className="flex-col">
+        <div className="flex flex-col items-start ml-16 py-5 w-full">
+          <h1 className="text-5xl font-bold text-white">We The Best!</h1>
+          <h1 className="text-5xl font-bold text-black">Let's golf!</h1>
+          <div className="flex flex-col w-3/4">
+            <p className="text-xl p-2 mt-8 items-start">"Major 🔑 Alert! Your passion is the 🔑 to success, and now  <br /> it's paying you back! Dive into the vibes and enjoy major rewards  <br /> while doing what you            
             love. It's all about the journey, it's all about YOU! #WeTheBest 🚀🔑</p>
           </div>
         </div>
-        <div className="flex flex-row p-2 ml-20">
+        <div className="flex flex-row p-2 mb-12 ml-14">
           <img src={social} alt="socials" />
         </div>
-        <div className="flex items-end justify-end object-contain">
-            <img src={khaled} alt="khaled" className="object-contain absolute h-2/4 w-auto mr-20 sm:h-1/4 sm:w-auto"/>
+      </div>
+        <div className="flex items-start place-self-end w-1/3 h-auto justify-end mr-4">
+            <img src={khaled} alt="khaled" className="mt-2 object-contain"/>
         </div>
     </div>
     <div className="flex flex-col items-center mt-20">
