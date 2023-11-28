@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/liquid-demo/static/css/main.71d531bc.css",
-    "main.js": "/liquid-demo/static/js/main.00a4dac0.js",
+    "main.css": "/liquid-demo/static/css/main.2039d2ad.css",
+    "main.js": "/liquid-demo/static/js/main.975a28ca.js",
     "static/js/787.c2ccaea3.chunk.js": "/liquid-demo/static/js/787.c2ccaea3.chunk.js",
     "static/media/djk 1.png": "/liquid-demo/static/media/djk 1.a0122e00ddb2d0a0fc49.png",
     "static/media/wtb-gold.jpg": "/liquid-demo/static/media/wtb-gold.8d36d52a0260b736d7ef.jpg",
@@ -27,19 +27,18 @@
     "static/media/log_in.png": "/liquid-demo/static/media/log_in.c10854628fd3f76152cf.png",
     "static/media/Reward Type-1.png": "/liquid-demo/static/media/Reward Type-1.db8e1c98bbcc3e201a90.png",
     "static/media/modal_10.png": "/liquid-demo/static/media/modal_10.e608a96b20a57ef75955.png",
-    "static/media/Pricing Card_premium.png": "/liquid-demo/static/media/Pricing Card_premium.c7812b96b2ecc727f2d0.png",
     "static/media/clipboard_woman.png": "/liquid-demo/static/media/clipboard_woman.77693f18bdd42583c5ff.png",
     "static/media/slick.svg": "/liquid-demo/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/liquid-demo/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/liquid-demo/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/liquid-demo/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/liquid-demo/index.html",
-    "main.71d531bc.css.map": "/liquid-demo/static/css/main.71d531bc.css.map",
-    "main.00a4dac0.js.map": "/liquid-demo/static/js/main.00a4dac0.js.map",
+    "main.2039d2ad.css.map": "/liquid-demo/static/css/main.2039d2ad.css.map",
+    "main.975a28ca.js.map": "/liquid-demo/static/js/main.975a28ca.js.map",
     "787.c2ccaea3.chunk.js.map": "/liquid-demo/static/js/787.c2ccaea3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71d531bc.css",
-    "static/js/main.00a4dac0.js"
+    "static/css/main.2039d2ad.css",
+    "static/js/main.975a28ca.js"
   ]
 }
