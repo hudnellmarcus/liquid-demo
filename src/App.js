@@ -13,7 +13,6 @@ import 'react-slick';
 import 'slick-carousel';
 import Perks from './Pages/Perks';
 import AccountSettings from './Pages/AccountSettings';
-import Modal1 from './Components/Modals/Modal1';
 import Modals from './Components/Modals/Modals';
 
 
@@ -29,8 +28,8 @@ function App() {
         <Route path='/homepage' element={<Homepage />} />
         <Route path="/register/1" element={<Register1 />} />
         <Route path="/register/2" element={<Register2 />} />
-        <Route path="/referral" element={<LandingPage />} />
-        <Route path="/" element={<SignInPage />} />
+        <Route path="/login" element={<SignInPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </Router>

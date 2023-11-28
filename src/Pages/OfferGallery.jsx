@@ -40,7 +40,7 @@ const OfferGallery = () => {
 
   return (
     <div className="flex flex-col h-screen overflow-auto">
-        <div className="grid grid-cols-4 grid-rows-8  bg-amber-400 w-full">
+        <div className="grid grid-cols-4 grid-rows-8  bg-amber-400 h-full w-full">
             <div className="row-span-1 col-span-4">
                 <NavBar />
             </div>
@@ -48,22 +48,22 @@ const OfferGallery = () => {
                     <h1 className="text-7xl font-bold text-white align-middle">We The <span className="text-7xl text-black font-bold">Best!</span>
                     </h1>
                 </div>    
-            <div className="flex col-start-4 mr-auto row-span-6 content-center">
-                <img src={khaled} alt="khaled" className="object-contain h-96 w-auto mb-auto mx-auto content-center"/>
+            <div className="flex col-start-4 mr-6 content-center">
+                <img src={khaled} alt="khaled" className="object-contain m-auto content-center"/>
             </div>
         </div>
-        <div className="flex flex-row p-4 mx-12 my-12 space-x-8">
+        <div className="flex flex-row p-4 mx-6 my-6 space-x-8">
             
             <button 
-                className={`px-6 py-2 font-semibold text-lg border-black border rounded-full ${activeButton === 'all' ? 'text-white bg-black' : 'text-black bg-white'}`}
+                className={`px-6 py-2 font-semibold text-md border-black border rounded-full ${activeButton === 'all' ? 'text-white bg-black' : 'text-black bg-white'}`}
                 onClick={() => handleButtonClick('all')}>All</button>
             
             <button 
-                className={`px-6 py-2 font-semibold text-lg border-black border rounded-full ${activeButton === 'activated' ? 'text-white bg-amber-400' : 'text-black bg-white'}`}
+                className={`px-6 py-2 font-semibold text-md border-black border rounded-full ${activeButton === 'activated' ? 'text-white bg-amber-400' : 'text-black bg-white'}`}
                 onClick={() => handleButtonClick('activated')}>Activated</button>
             
             <button 
-                className={`px-6 py-2 font-semibold text-lg border-black border rounded-full ${activeButton === 'expired' ? 'text-white bg-amber-400' : 'text-black bg-white'}`}
+                className={`px-6 py-2 font-semibold text-md border-black border rounded-full ${activeButton === 'expired' ? 'text-white bg-amber-400' : 'text-black bg-white'}`}
                 onClick={() => handleButtonClick('expired')}>Expired
             </button>
         
@@ -71,18 +71,19 @@ const OfferGallery = () => {
             {   activeButton === 'all' &&
         <div className="flex flex-col items-start p-4">
             <div className="flex p-2">
-                <img src={rewards1} alt="reward1" className="flex object-contain"/>
+                <img src={rewards1} alt="reward1" className="flex object-contain w-4/5 h-auto"/>
             </div>
             <div className="flex p-2">
-                <img src={rewards2} alt="reward2" />
+                <img src={rewards2} alt="reward2" className="flex object-contain w-4/5 h-auto" />
             </div>
-            <div className="flex p-2 ml-14">
+            <div className="flex  py-2 h-auto ml-10">
                 <button 
                     onClick={handleOfferClick}
                     onFocus={(e) => e.target.blur()}
-                    className={`transition-transform transform hover:scale-110 ${isSelected && 'border-8 border-amber-400'}`}>
+                    style= {{ width: '300px'}}
+                    className={`transition-transform transform hover:scale-110 ${isSelected && 'border-4 border-amber-400'}`}>
                     <img 
-                    src={rewards3} alt="reward3" />
+                    src={rewards3} alt="reward3" className="object-contain full h-auto" />
                 </button>
             </div>
             { isSelected === true &&

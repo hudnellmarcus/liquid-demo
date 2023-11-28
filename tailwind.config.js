@@ -11,5 +11,8 @@ module.exports = {
       },
     },
   },
+  variants: {
+    ringColor: ['responsive', 'dark', 'focus-within', 'focus'],
+  },
   plugins: [],
 };

@@ -8,7 +8,7 @@ const SignInPage = () => {
 
   return (
     <div className="flex h-screen flex-row" >
-        <div className="flex flex-1 flex-col justify-center p-3 sm:p-6 border-2 border-green-500">
+        <div className="flex flex-1 flex-col justify-center p-3 sm:p-6">
             <div className="flex justify-start items-start mb-24 ml-10">
                 <img src={liquidLabel} alt="logo"/>
             </div>

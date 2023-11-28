@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import liquidLogo from '../Liquid-Label.png';
 import pricingCard from '../Assets/Member DJ Khaled/Pricing_full.png';
-import free from '../Assets/Member DJ Khaled/Pricing Card_free.png';
-import premium from '../Assets/Member DJ Khaled/Pricing Card_premium.png';
-import vip from '../Assets/Member DJ Khaled/Pricing Card_vip.png';
-import platinum from '../Assets/Member DJ Khaled/Pricing Card_platinum.png';
 import progressBar from '../Assets/Member DJ Khaled/progress-bar_2.png'; 
-import { Link } from 'react-router-dom';
+
 
 import Modals from '../Components/Modals/Modals';
 

@@ -37,30 +37,30 @@ const RedeemedRewards = () => {
 
   return (
     <div className="flex flex-col h-screen overflow-auto">
-        <div className="grid grid-cols-4 grid-rows-8  bg-amber-400 w-full">
+        <div className="grid grid-cols-4 grid-rows-8  bg-amber-400 w-auto h-auto border-2">
             <div className="row-span-1 col-span-4">
                 <NavBar />
             </div>
                 <div className="flex row-span-6 col-span-2 items-center justify-center">
-                    <h1 className="text-7xl font-bold text-white align-middle">We The <span className="text-7xl text-black font-bold">Best!</span>
+                    <h1 className="text-6xl font-bold text-white align-middle">We The <span className="text-7xl text-black font-bold">Best!</span>
                     </h1>
                 </div>    
-            <div className="flex col-start-4 mr-auto row-span-6 content-center">
-                <img src={khaled} alt="khaled" className="object-contain h-96 w-auto mb-auto mx-auto content-center"/>
+            <div className="flex col-start-4 row-span-6 row-end-8 content-center">
+                <img src={khaled} alt="khaled" className="object-contain w-auto mb-auto mx-auto content-center"/>
             </div>
         </div>
         <div className="flex flex-col items-center">
             <div className="flex flex-col my-4 p-2 w-full">
-                <h1 className="text-5xl text-black font-bold ml-6">Redeemed Rewards</h1>
+                <h1 className="text-4xl text-black font-bold ml-6">Redeemed Rewards</h1>
                 <div className="flex flex-row m-8 justify-around">
                     <div className="flex flex-row items-center space-x-4 border border-gray-200 rounded-md px-4 py-2">
-                     <p className="text-2xl text-green-600 font-semibold">${totalAmountSpent.toFixed(2)}</p><p>Total Amount Spent</p>
+                     <p className="text-xl text-green-600 font-semibold">${totalAmountSpent.toFixed(2)}</p><p className="text-sm">Total Amount Spent</p>
                     </div>
                     <div className="flex flex-row space-x-4 items-center border border-gray-200 rounded-md px-4 py-2">
-                     <p className="text-2xl text-green-600 font-semibold">${totalCashbackRewards.toFixed(2)}</p><p>Total Cashback Rewards</p>
+                        <p className="text-xl text-green-600 font-semibold">${totalCashbackRewards.toFixed(2)}</p><p className="text-sm">Total Cashback Rewards</p>
                     </div>
                     <div className="flex flex-row space-x-4 items-center border border-gray-200 rounded-md px-4 py-2">
-                      <p className="text-2xl text-green-600 font-semibold">{totalRedemptions}</p><p>Total Redemptions</p>
+                      <p className="text-xl text-green-600 font-semibold">{totalRedemptions}</p><p className="text-sm">Total Redemptions</p>
                     </div>
                 </div>
                 <div className="flex mt-6">

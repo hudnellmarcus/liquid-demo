@@ -61,5 +61,3 @@ const Modals = ({ close }) => {
 };
 
 export default Modals;
-{/*}  <div className="flex flex-col w-2/3 items-center">
-</div> */}
