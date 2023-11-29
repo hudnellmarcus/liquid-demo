@@ -42,7 +42,7 @@ const RedeemedRewards = () => {
                 <NavBar />
             </div>
                 <div className="flex row-span-6 col-span-2 items-center justify-center">
-                    <h1 className="text-6xl font-bold text-white align-middle">We The <span className="text-7xl text-black font-bold">Best!</span>
+                    <h1 className="text-6xl font-bold text-white align-middle">We The <span className="text-6xl text-black font-bold">Best!</span>
                     </h1>
                 </div>    
             <div className="flex col-start-4 row-span-6 row-end-8 content-center">

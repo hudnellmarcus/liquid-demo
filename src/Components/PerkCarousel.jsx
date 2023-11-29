@@ -68,13 +68,15 @@ const PerkCarousel = () => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: true,
+        autoplay: true,
     };
 
   return (    
-    <div>
+    <div className="flex flex-col w-full h-auto">
         <Slider {...settings}>
             <CarouselCard1 />
             <CarouselCard2 />

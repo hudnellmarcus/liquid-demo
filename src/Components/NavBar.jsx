@@ -6,7 +6,9 @@ import settings from '../Assets/Member DJ Khaled/Settings_Button.png';
 const NavBar = () => {
   return (
     <div className="flex flex-row w-full items-center space-x-10 bg-amber-400">
+      <Link to="/homepage">
         <img src={liquidLogo} alt="logo" className="ml-14 mt-2"/> 
+        </Link>
           <div className="flex space-x-10 text-lg mt-2">
             <Link to="/offers">
               <p className="ml-20">Offers</p>

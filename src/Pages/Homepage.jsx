@@ -33,10 +33,10 @@ const Homepage = () => {
             <img src={khaled} alt="khaled" className="mt-2 object-contain"/>
         </div>
     </div>
-    <div className="flex flex-col items-center mt-20">
+    <div className="flex flex-col items-center mt-12">
       <div className='flex flex-col items-center'>
-        <h1 className="text-4xl text-black font-bold justify-center p-2">Unlocking Creativity with DJ Khaled Perks!</h1>
-        <p className="text-xl justify-center">Unlock a world of benefits specially crafted for creators, packed with exciting rewards in our dedicated creators' offers section</p>
+        <h1 className="text-2xl text-black font-bold justify-center p-2">Unlocking Creativity with DJ Khaled Perks!</h1>
+        <p className="text-md justify-center">Unlock a world of benefits specially crafted for creators, packed with exciting rewards in our dedicated creators' offers section</p>
       </div>
       <div className="flex flex-col mt-10 w-1/2">
         <PerkCarousel />
@@ -44,12 +44,12 @@ const Homepage = () => {
     </div>
     <div>
       <div className="flex flex-col items-center">
-        <div className="flex flex-col p-2">
-          <h1 className="text-4xl font-bold justify-center p-2">Elevate Your Creative Journey with Exclusive Rewarded Offers!</h1>
-          <p className="text-xl p-1">Unlock a world of benefits specially crafted for creators, packed with exciting rewards in our dedicated creator's offers section!</p>
+        <div className="flex flex-col p-2 items-center">
+          <h1 className="text-2xl font-bold justify-center p-2">Elevate Your Creative Journey with Exclusive Rewarded Offers!</h1>
+          <p className="text-md p-1">Unlock a world of benefits specially crafted for creators, packed with exciting rewards in our dedicated creator's offers section!</p>
         </div>
-        <div className="flex p-2">
-          <img src={rewards} alt="rewards" />
+        <div className="flex flex-col p-2">
+          <img src={rewards} alt="rewards" className='w-4/5 h-auto place-self-center' />
         </div>
       </div>
     </div>

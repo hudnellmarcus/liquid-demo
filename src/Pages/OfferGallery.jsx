@@ -99,12 +99,12 @@ const OfferGallery = () => {
 
                     activeOffers.map((offer, index) => (
                         <div key={index} className="ml-14 p-1">
-                            <img src={offer} alt="" className=""/>
+                            <img src={offer} alt="" className="w-4/5 h-auto"/>
                         </div>
                     )))
                 }
             <div className="flex p-2">
-                <img src={activated} alt="reward1" className="flex object-contain"/>
+                <img src={activated} alt="reward1" className="flex object-contain w-4/5"/>
             </div>
             
         </div>
@@ -112,7 +112,7 @@ const OfferGallery = () => {
             {   activeButton === 'expired' &&
         <div className="flex flex-col items-start p-4">
             <div className="flex p-2">
-                <img src={expired} alt="reward1" className="flex object-contain"/>
+                <img src={expired} alt="reward1" className="flex object-contain w-4/5 h-auto"/>
             </div>
         </div>
             }
