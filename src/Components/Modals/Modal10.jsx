@@ -17,7 +17,7 @@ const Modal10 = ({ onContinue, onReturn}) => {
             <img src={x} alt="x"/>
         </div>
         <div className="flex flex-col">
-            <img src={main} alt="" className="h-1/2"/>
+            <img src={main} alt="" className=""/>
             <img src={info} alt="" className="-mt-36"/>
         </div>
         <button 

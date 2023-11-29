@@ -41,7 +41,7 @@ const Modals = ({ close }) => {
    
     
     <div className='w-screen h-screen bg-black bg-opacity-30 fixed top-0 right-0 flex justify-center items-center'>
-        <div className='bg-white p-10 max-w-[800px] rounded-md shadow-md'>
+        <div className='flex bg-white p-10 max-w-[800px] rounded-md shadow-md'>
           {currentModal === 1 && <Modal1  onContinue= {handleContinue} onReturn={handleReturn} />}
           {currentModal === 2 && <Modal2 onContinue= {handleContinue} onReturn={handleReturn} />}
           {currentModal === 3 && <Modal3 onContinue= {handleContinue} onReturn={handleReturn} />}

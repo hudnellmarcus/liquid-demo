@@ -5,13 +5,13 @@ import backArrow from '../../Assets/Member DJ Khaled/Modals/left_arrow.png';
 
 const Modal7 = ({ onContinue, onReturn }) => {
   return (
-    <div className="flex flex-col items-center border-2 border-gray-400">
-        <div className="flex flex-row items-center bg-red-400 h-36 w-auto">
-            <div className="flex justify-center w-full">
+    <div className="flex flex-col items-center border-2 border-gray-200 rounded-md">
+        <div className="flex flex-row items-center bg-red-400 w-auto">
+            <div className="flex justify-center w-1/2">
                 <img src={boa} alt="" className="h-auto" />
             </div>
         </div>
-        <div className="flex flex-col my-12">
+        <div className="flex flex-col my-6">
             <div className="my-2 p-2">
                 <h3 className="text-3xl font-bold py-1">Verification</h3>
                 <p>Enter the security code sent to *** *** 1111</p>

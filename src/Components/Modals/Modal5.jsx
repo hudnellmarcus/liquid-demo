@@ -5,14 +5,14 @@ import backArrow from '../../Assets/Member DJ Khaled/Modals/left_arrow.png';
 
 const Modal5 = ({ onContinue, onReturn }) => {
   return (
-    <div className="flex flex-col items-center border-2 border-gray-400">
-        <div className="flex flex-row items-center bg-red-400 h-36 w-auto">
-            <div className="flex justify-center w-full">
-                <img src={boa} alt="" className=" h-auto" />
+    <div className="flex flex-col items-center border-4 rounded-md border-gray-100">
+        <div className="flex flex-row items-center bg-red-400 h-auto w-auto">
+            <div className="flex justify-center w-1/2">
+                <img src={boa} alt="" className="" />
             </div>
         </div>
-        <div className="flex flex-col my-12">
-            <h3 className="text-3xl font-bold my-4">Sign in</h3>
+        <div className="flex flex-col my-2">
+            <h3 className="text-4xl font-bold my-4">Sign in</h3>
             <div className="flex flex-col">
                 <p className="p-1">Username</p>
                 <input

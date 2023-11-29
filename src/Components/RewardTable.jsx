@@ -6,7 +6,7 @@ const RewardTable = ({ data }) => {
 
   return (
     (
-        <table className="min-w-2/3 bg-white border border-gray-300 m-6">
+        <table className="max-w-2/3  bg-white border border-gray-300 m-6">
             <thead className="bg-gray-200">
                 <tr>
                     <th className="py-1 px-4 text-left">DATE</th>
