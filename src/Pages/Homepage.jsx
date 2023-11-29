@@ -43,9 +43,9 @@ const Homepage = () => {
       </div>
     </div>
     <div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col mt-6 mb-4 items-center">
         <div className="flex flex-col p-2 items-center">
-          <h1 className="text-2xl font-bold justify-center p-2">Elevate Your Creative Journey with Exclusive Rewarded Offers!</h1>
+          <h1 className="text-2xl font-bold justify-center p-2 mt-2">Elevate Your Creative Journey with Exclusive Rewarded Offers!</h1>
           <p className="text-md p-1">Unlock a world of benefits specially crafted for creators, packed with exciting rewards in our dedicated creator's offers section!</p>
         </div>
         <div className="flex flex-col p-2">

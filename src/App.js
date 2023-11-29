@@ -14,7 +14,9 @@ import 'slick-carousel';
 import Perks from './Pages/Perks';
 import AccountSettings from './Pages/AccountSettings';
 import Modals from './Components/Modals/Modals';
-
+import './Components/slick.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 function App() {
   return (
