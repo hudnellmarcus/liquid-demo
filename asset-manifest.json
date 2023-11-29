@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/liquid-demo/static/css/main.0cbc197b.css",
-    "main.js": "/liquid-demo/static/js/main.c2202748.js",
+    "main.js": "/liquid-demo/static/js/main.84e6dd27.js",
     "static/js/787.c2ccaea3.chunk.js": "/liquid-demo/static/js/787.c2ccaea3.chunk.js",
     "static/media/djk 1.png": "/liquid-demo/static/media/djk 1.a0122e00ddb2d0a0fc49.png",
     "static/media/wtb-gold.jpg": "/liquid-demo/static/media/wtb-gold.8d36d52a0260b736d7ef.jpg",
@@ -34,11 +34,11 @@
     "static/media/slick.woff": "/liquid-demo/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/liquid-demo/index.html",
     "main.0cbc197b.css.map": "/liquid-demo/static/css/main.0cbc197b.css.map",
-    "main.c2202748.js.map": "/liquid-demo/static/js/main.c2202748.js.map",
+    "main.84e6dd27.js.map": "/liquid-demo/static/js/main.84e6dd27.js.map",
     "787.c2ccaea3.chunk.js.map": "/liquid-demo/static/js/787.c2ccaea3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0cbc197b.css",
-    "static/js/main.c2202748.js"
+    "static/js/main.84e6dd27.js"
   ]
 }
