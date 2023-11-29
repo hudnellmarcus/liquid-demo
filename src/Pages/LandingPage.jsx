@@ -89,7 +89,7 @@ return (
     <div className="flex flex-col bg-amber-400 h-full rounded-bl-3xl">
       <div className="flex flex-col h-full justify-center mt-auto  overflow-y-auto">
         <div className="flex flex-row space-x-4 justify-center mt-12">
-          <Link to="/">
+          <Link to="/login">
             <button className="bg-white text-black font-bold h-12 py-2 px-4 rounded-full">
               Log In
             </button>
